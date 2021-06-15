@@ -20,7 +20,7 @@ The copyright in this software is being made available under this Software
 Copyright License. This software may be subject to other third party and
 contributor rights, including patent rights, and no such rights are
 granted under this license.
-Copyright (c) 1995 - 2020 Fraunhofer-Gesellschaft zur Förderung der
+Copyright (c) 1995 - 2021 Fraunhofer-Gesellschaft zur Förderung der
 angewandten Forschung e.V. (Fraunhofer)
 All rights reserved.
 Redistribution and use in source and binary forms, with or without
