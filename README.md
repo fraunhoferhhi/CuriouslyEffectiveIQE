@@ -7,7 +7,7 @@ which has been accepted for publication for ICIP 2021 ([Link to preprint](https:
 ```
 @misc{becker2021curiously,
       title={Curiously Effective Features for Image Quality Prediction}, 
-      author={Sören Becker and Thomas Wiegand and Sebastian Bosse},
+      author={S\"oren Becker and Thomas Wiegand and Sebastian Bosse},
       year={2021},
       eprint={2106.05946},
       archivePrefix={arXiv},
