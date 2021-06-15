@@ -12,6 +12,6 @@ This repository provides the reference implementation for the paper 'Curiously E
       primaryClass={cs.CV}
 }
 ```
-[Link to preprint]{https://arxiv.org/abs/2106.05946}
+[Link to preprint](https://arxiv.org/abs/2106.05946)
 
 
