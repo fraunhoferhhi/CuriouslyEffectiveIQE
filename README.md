@@ -1,6 +1,8 @@
 # Curiously Effective Features for Image Quality Prediction
 
-This repository provides the reference implementation for the paper 'Curiously Effective Features for Image Quality Prediction' which has been accepted for publication for ICIP 2021. 
+This repository provides the reference implementation for the paper 
+*Curiously Effective Features for Image Quality Prediction*
+which has been accepted for publication for ICIP 2021. 
 
 ```
 @misc{becker2021curiously,
