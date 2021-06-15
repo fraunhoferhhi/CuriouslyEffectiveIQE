@@ -15,6 +15,7 @@ which has been accepted for publication for ICIP 2021 ([Link to preprint](https:
 We are currently documenting the code and will upload it asap.
 
 ### License
+'''
 The copyright in this software is being made available under this Software
 Copyright License. This software may be subject to other third party and
 contributor rights, including patent rights, and no such rights are
@@ -50,4 +51,4 @@ NO EXPRESS OR IMPLIED LICENSES TO ANY PATENT CLAIMS, INCLUDING
 WITHOUT LIMITATION THE PATENTS OF THE COPYRIGHT HOLDERS AND
 CONTRIBUTORS, ARE GRANTED BY THIS SOFTWARE LICENSE. THE
 COPYRIGHT HOLDERS AND CONTRIBUTORS PROVIDE NO WARRANTY OF PATENT
-NON-INFRINGEMENT WITH RESPECT TO THIS SOFTWARE.
+NON-INFRINGEMENT WITH RESPECT TO THIS SOFTWARE.'''
