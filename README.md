@@ -1,6 +1,6 @@
 This repository provides the reference implementation for the paper\
 **Curiously Effective Features for Image Quality Prediction**\
-which has been accepted for publication for ICIP 2021 ([Link to preprint](https://arxiv.org/abs/2106.05946)). 
+which has been accepted for publication at ICIP 2021 ([Link to preprint](https://arxiv.org/abs/2106.05946)). 
 
 ```
 @misc{becker2021curiously,
@@ -12,7 +12,13 @@ which has been accepted for publication for ICIP 2021 ([Link to preprint](https:
       primaryClass={cs.CV}
 }
 ```
-We are currently documenting the code and will upload it asap.
+
+You can reproduce our results with the following steps:
+
+1. Set up a python environment using the provided *CuriousFeatures.yml* file.
+2. Download the datasets and use *format_datasets.py* to bring the data into the expected format.
+3. Run *bash feature_extraction.sh* in your terminal. This will extract features according to the paper from all images in all databases. We provide two scripts here, *feature_extraction.sh* and *feature_extraction_reproduce.sh*. *feature_extraction.sh* uses PyTorch and runs considerably faster than *feature_extraction_reproduce.sh*, however, results will likely deviate slightly from the results reported in the paper. If you want to reproduce our results and do not care about computational speed, you can use *feature_extraction_reproduce.sh*.
+4. Open the jupyter notebook *Experiments.ipynb* and follow the instructions therein to reproduce reported correlations.
 
 ### License
 
