@@ -4,15 +4,15 @@
 for db in "live" "tid2013" "csiq"; do
 
   if [[ "$db" == "live" ]]; then
-    path_csv="/home/becker/data/liveiqa/liveiqa.csv"
+    path_csv="./data/liveiqa/liveiqa.csv"
   fi
 
   if [[ "$db" == "csiq" ]]; then
-    path_csv="/home/becker/data/csiq/_csiq.csv"
+    path_csv="./data/csiq/csiq.csv"
   fi
 
   if [[ "$db" == "tid2013" ]]; then
-    path_csv="/home/becker/data/tid2013/tid2013/_tid2013.csv"
+    path_csv="./data/tid2013/tid2013/tid2013.csv"
   fi
 
   if [[ "$model" == "cornia" ]]; then
