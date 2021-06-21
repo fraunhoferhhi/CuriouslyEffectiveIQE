@@ -198,12 +198,19 @@ if __name__ == "__main__":
         # stolen from https://stackoverflow.com/questions/15008758/parsing-boolean-values-with-argparse
         if isinstance(v, bool):
             return v
-        if v.lower() in ('yes', 'true', 't', 'y', '1'):
+        if v.lower() in ('yes', 'True', 'true', 't', 'y', '1'):
             return True
-        elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+        elif v.lower() in ('no', 'False', 'false', 'f', 'n', '0'):
             return False
         else:
             raise argparse.ArgumentTypeError('Boolean value expected.')
+
+    def str_or_none(arg):
+        if arg.lower() == "none":
+            return None
+        else:
+            return arg
+
 
     parser = argparse.ArgumentParser()
 
@@ -222,11 +229,11 @@ if __name__ == "__main__":
     parser.add_argument("--path_codebook", type=str, required=True,
                         help="Path to the codebook (.npy file))")
 
+    parser.add_argument("--path_zca", type=str_or_none, default=None,
+                        help="Path to .mat file which contains zca parameters. Only used for CORNIA model.")
+
     parser.add_argument("--name", type=str, required=True,
                         help="Name of codebook model.")
-
-    parser.add_argument("--path_zca", type=str2bool, default=False,
-                        help="Path to .mat file which contains zca parameters. Only used for CORNIA model.")
 
     parser.add_argument("--path_out", type=str, default="features.pkl",
                         help="Path under which to save extracted features")
