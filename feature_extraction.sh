@@ -12,13 +12,13 @@ for db in "live" "tid2013" "csiq"; do
   fi
 
   if [[ "$db" == "tid2013" ]]; then
-    path_csv="./data/tid2013/tid2013/tid2013.csv"
+    path_csv="./data/tid2013/tid2013.csv"
   fi
 
   if [[ "$model" == "cornia" ]]; then
     path_zca="./codebooks/CSIQ_whitening_param.mat"
   else
-    path_zca="False"
+    path_zca="None"
   fi
 
   # iterate over codebook models
