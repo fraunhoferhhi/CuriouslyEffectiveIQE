@@ -421,7 +421,7 @@ if __name__ == "__main__":
     (To access this zip file you need to obtain the password from the LIVE lab.)
     
     Assuming you placed 'databaserelease2.zip' under ./data/liveiqa/databaserelease2.zip, you can use the following command:
-    python format_dataset.py --dataset liveiqa --data_dir ./data/liveiqa 
+    python format_datasets.py --dataset liveiqa --data_dir ./data/liveiqa 
     
     --------------------------------------------------TID2013----------------------------------------------------------- 
     
@@ -429,7 +429,7 @@ if __name__ == "__main__":
         1) tid2013.rar
         
     Assuming you placed 'tid2013.rar' under ./data/tid2013/tid2013.rar, you can use the following command:
-    python format_dataset.py --dataset tid2013 --data_dir ./data/tid2013
+    python format_datasets.py --dataset tid2013 --data_dir ./data/tid2013
     
     ----------------------------------------------------CSIQ------------------------------------------------------------ 
     
@@ -439,7 +439,7 @@ if __name__ == "__main__":
         3) csiq.DMOS.xlsx
     
     Assuming you placed these files under ./data/csiq/*, you can use the following command:
-    python format_dataset.py --dataset csiq --data_dir ./data/csiq
+    python format_datasets.py --dataset csiq --data_dir ./data/csiq
     """
 
 
